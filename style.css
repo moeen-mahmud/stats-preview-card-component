@@ -65,7 +65,7 @@ body {
   color: var(--main-paragraph);
 }
 
-/********** Footer Section **********/
+/********** Stats Footer Section **********/
 
 .section-footer {
   max-width: 350px;
@@ -110,6 +110,7 @@ body {
   color: hsl(228, 45%, 44%);
   text-decoration: none;
 }
+
 /********** Media Queries **********/
 
 @media only screen and (min-width: 280px) and (max-width: 1024px) {
@@ -156,6 +157,7 @@ body {
   .image {
     width: 320px;
     height: 250px;
+    background-image: url("./images/image-header-mobile.jpg");
     border-radius: 10px 10px 0 0;
   }
 }
