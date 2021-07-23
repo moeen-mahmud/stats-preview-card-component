@@ -29,7 +29,7 @@ Users should be able to view the optimal layout depending on their device's scre
 ### Links
 
 - Solution URL: [GitRepo](https://github.com/moeen-mahmud/stats-preview-card-component)
-- Live Site URL: [LiveSite](#)
+- Live Site URL: [LiveSite](https://moeen-stats-preview-card-component.netlify.app/)
 
 ## My Process
 
