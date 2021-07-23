@@ -1,0 +1,161 @@
+:root {
+  --main-bg-color: hsl(233, 47%, 7%);
+  --card-bg-color: hsl(244, 38%, 16%);
+  --accent-color: hsl(277, 64%, 61%);
+  --main-font-color: hsl(0, 0%, 100%);
+  --main-heading-stats: hsl(0, 0%, 100%);
+  --main-paragraph: hsla(0, 0%, 100%, 0.75);
+  --stat-heading: hsla(0, 0%, 100%, 0.6);
+}
+
+/********** Google Fonts **********/
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap");
+
+/********** Body **********/
+
+* {
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: var(--main-font-color);
+  background-color: var(--main-bg-color);
+}
+
+/********** Main Content **********/
+
+.card {
+  height: 97vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-content {
+  display: flex;
+  max-width: 1000px;
+  background-color: var(--card-bg-color);
+  border-radius: 10px;
+}
+
+/********** Left Card Section **********/
+
+.wrapper-left {
+  padding: 3rem;
+  margin-right: 2rem;
+}
+
+.title,
+.highlighted {
+  font-size: 2rem;
+}
+
+.highlighted {
+  color: var(--accent-color);
+}
+
+.section-content p {
+  margin: 2rem 0;
+  line-height: 1.8rem;
+  color: var(--main-paragraph);
+}
+
+/********** Footer Section **********/
+
+.section-footer {
+  max-width: 350px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4rem;
+}
+
+.stat {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 1.5rem;
+}
+
+.stat-box small {
+  font-size: 0.8rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--stat-heading);
+}
+
+/********** Image Section **********/
+
+.image {
+  background-color: var(--accent-color);
+  background-image: url(./images/image-header-desktop.jpg);
+  width: 500px;
+  height: 400px;
+  background-size: cover;
+  border-radius: 0 10px 10px 0;
+  background-blend-mode: multiply;
+  filter: opacity(0.8);
+}
+
+/********** Attribution **********/
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+  text-decoration: none;
+}
+/********** Media Queries **********/
+
+@media only screen and (min-width: 280px) and (max-width: 1024px) {
+  .card {
+    margin: 8rem 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .main-content {
+    width: 320px;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .wrapper-left {
+    margin: 0;
+    padding: 2rem 1rem;
+  }
+
+  .section-title,
+  .section-content {
+    text-align: center;
+  }
+
+  .section-content {
+    margin: 2rem 1rem;
+  }
+
+  .section-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .stat-box {
+    margin: 0 0 1.5rem 0;
+  }
+
+  .image {
+    width: 320px;
+    height: 250px;
+    border-radius: 10px 10px 0 0;
+  }
+}
