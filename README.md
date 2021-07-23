@@ -2,8 +2,6 @@
 
 This is a solution to the [Stats preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62)
 
----
-
 ## Table of contents
 
 - [Overview](#overview)
@@ -19,8 +17,6 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
 - [Acknowledgments](#acknowledgments)
 
 ## Overview
-
----
 
 ### The challenge
 
@@ -68,13 +64,9 @@ I will try to solve more and more **Fronendmentor** challenges for developing my
 
 ### Useful resources
 
-- [WesBos's-Free-Flexbox-Course](https://flexbox.io/)
-- This is a great course for learning flexbox. I really liked the way he teaches, helped me a lot.
+- [WesBos](https://flexbox.io/) - This is a great course for learning flexbox. I really liked the way he teaches, helped me a lot.
 
-- [MDN-Documentation](https://developer.mozilla.org/en-US/)
-- A Bible for any web developers.
-
----
+- [MDN](https://developer.mozilla.org/en-US/) - A Bible for any web developers.
 
 ## Author
 
